@@ -3,9 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
+    <style>
+        .arial {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .verdana {
+            font-family: Verdana, sans-serif;
+        }
+
+        body {
+            background-color:rgb(189, 235, 255);
+        }
+
+        #first-skill {
+            font-size: 1.6em;
+        }
+
+        #second-skill {
+            font-size: 1.4em;
+        }
+
+        #third-skill {
+            font-size: 1.2em;
+        }
+
+        #fourth-skill {
+            font-size: 1em;
+        }
+        .skyblue {
+            background-color: skyblue;
+        }
+
+    </style>
   </head>
   <body>
-    <h1>Portfólio Web</h1>
+    <h1 class="skyblue">Portfólio Web</h1>
     <ul>
         <li><a href="#foto">Foto de perfil e informações gerais</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -15,32 +48,32 @@
     <br>
     <br>
     <br>
-    <h4>
+    <h4 class="arial">
         <img id="foto" src="./images/foto_leandro" width="200" alt="Foto de Leandro Bortolotto Camargo">
         <br>
         Leandro Bortolotto Camargo
     </h4>
-<p>Estudante de Desenvolvimento-Web na Trybe, brasileiro, residente em Campinas-SP.</p>
+<p class="verdana">Estudante de <em>Desenvolvimento-Web</em> na <strong>Trybe</strong>, brasileiro, residente em Campinas-SP.</p>
 <br>
 <br>
 <br>
 <br>
-<h3 id="habilidades">Habilidades</h3>
+<h3 id="habilidades" class="skyblue">Habilidades</h3>
 <br>
     <ul>
-        <li>
+        <li id="first-skill">
             Graduação em <strong>Filosofia</strong> e em <strong>Direito</strong>
         </li>
         <br>
-        <li>
+        <li id="second-skill">
             Proficiência em <strong>Inglês</strong> e domínio intermediário de <strong>Alemão</strong>
         </li>
         <br>
-        <li>
+        <li id="third-skill">
             Conhecimentos elementares do pacote <em>Office</em>
         </li>
         <br>
-        <li>
+        <li id="fourth-skill">
             Experiência como monitor no ensino de línguas
         </li>
     </ul>
