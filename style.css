@@ -1,0 +1,67 @@
+body {
+    padding: 3%;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verdana {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color:rgb(189, 235, 255);
+}
+
+#first-skill {
+    font-size: 1.6em;
+}
+
+#second-skill {
+    font-size: 1.4em;
+}
+
+#third-skill {
+    font-size: 1.2em;
+}
+
+#fourth-skill {
+    font-size: 1em;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+#name-photo-description {
+    height: 535px;
+    position: relative;
+}
+
+#photo {
+    float: left;
+    padding: 10px;
+    background-color: aqua;
+}
+
+#name {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}   
+
+div#abilities-list ul li:nth-child(odd) {
+    background-color: aqua;
+}
+
+div#abilities-list ul li {
+    line-height: 40px;
+}
