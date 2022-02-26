@@ -1,97 +1,70 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfólio Web</title>
-    <style>
-        .arial {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .verdana {
-            font-family: Verdana, sans-serif;
-        }
-
-        body {
-            background-color:rgb(189, 235, 255);
-        }
-
-        #first-skill {
-            font-size: 1.6em;
-        }
-
-        #second-skill {
-            font-size: 1.4em;
-        }
-
-        #third-skill {
-            font-size: 1.2em;
-        }
-
-        #fourth-skill {
-            font-size: 1em;
-        }
-        .skyblue {
-            background-color: skyblue;
-        }
-
-    </style>
-  </head>
-  <body>
-    <h1 class="skyblue">Portfólio Web</h1>
-    <ul>
-        <li><a href="#foto">Foto de perfil e informações gerais</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#recomendacao">Recomendação de website</a></li>
-    </ul>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h4 class="arial">
-        <img id="foto" src="./images/foto_leandro" width="200" alt="Foto de Leandro Bortolotto Camargo">
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8">
+        <title>Portfólio Web</title>
+        <link rel="stylesheet" href="style2.css">
+      </head>
+      <body>
+        <h1 class="skyblue">Portfólio Web</h1>
+        <ul>
+            <li><a href="#foto">Foto de perfil e informações gerais</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#recomendacao">Recomendação de website</a></li>
+        </ul>
         <br>
-        Leandro Bortolotto Camargo
-    </h4>
-<p class="verdana">Estudante de <em>Desenvolvimento-Web</em> na <strong>Trybe</strong>, brasileiro, residente em Campinas-SP.</p>
-<br>
-<br>
-<br>
-<br>
-<h3 id="habilidades" class="skyblue">Habilidades</h3>
-<br>
-    <ul>
-        <li id="first-skill">
-            Graduação em <strong>Filosofia</strong> e em <strong>Direito</strong>
-        </li>
         <br>
-        <li id="second-skill">
-            Proficiência em <strong>Inglês</strong> e domínio intermediário de <strong>Alemão</strong>
-        </li>
         <br>
-        <li id="third-skill">
-            Conhecimentos elementares do pacote <em>Office</em>
-        </li>
         <br>
-        <li id="fourth-skill">
-            Experiência como monitor no ensino de línguas
-        </li>
-    </ul>
-<br>
-<br>
-<br>
-<br>
-    <br>
-    <br>
-    <p id="recomendacao">Um dos meus sites favoritos é o <em><a href="https://estadodaarte.estadao.com.br/" target="_blank">Estado da Arte</a></em>, que reúne artigos sobre diversos temas ligados a literatura, história, filosofia e arte escritos por excelentes pesquisadores e intelectuais brasileiros. 
-    <br>
-    <br>
-    <br>
-    <br>
-    <p><a href="#foto"><em>Clique aqui</em></a> para retornar à minha foto de perfil.</p>
+        <div id="name-photo-description">
+            <div id="name">
+                <h2 class="arial">Leandro Bortolotto Camargo</h4>
+            </div>
+            <div id="photo">
+                <img src="images/foto_leandro" width="300" alt="Foto de Leandro Bortolotto Camargo">
+            </div>
+        <br>
+            <div id="description">
+                <p class="verdana">Estudante de <em>Desenvolvimento-Web</em> na <strong>Trybe</strong>, brasileiro, residente em Campinas-SP.</p>
+            </div>
+        </div>
     <br>
     <br>
     <br>
     <br>
-  </body>
-</html>
+    <h3 id="abilities" class="skyblue">Habilidades</h3>
+    <br>
+    <div id="abilities-list">
+        <ul>
+            <li id="first-skill">
+                Graduação em <strong>Filosofia</strong> e em <strong>Direito</strong>
+            </li>
+            <li id="second-skill">
+                Proficiência em <strong>Inglês</strong> e domínio intermediário de <strong>Alemão</strong>
+            </li>
+            <li id="third-skill">
+                Conhecimentos elementares do pacote <em>Office</em>
+            </li>
+            <li id="fourth-skill">
+                Experiência como monitor no ensino de línguas
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+        <br>
+        <br>
+        <p id="recomendacao">Um dos meus sites favoritos é o <em><a href="https://estadodaarte.estadao.com.br/" target="_blank">Estado da Arte</a></em>, que reúne artigos sobre diversos temas ligados a literatura, história, filosofia e arte escritos por excelentes pesquisadores e intelectuais brasileiros. 
+        <br>
+        <br>
+        <br>
+        <br>
+        <p><a href="#photo"><em>Clique aqui</em></a> para retornar à minha foto de perfil.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+      </body>
+    </html>
